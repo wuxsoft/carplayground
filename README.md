@@ -25,11 +25,11 @@ Expected Output:
 
 ```rb
 2.3.1 :001 > car = Car.new
-2.3.1 :002 > car.setposition '5 5'
-2.3.1 :003 > car.setposition "1 2 E"
-2.3.1 :004 > car.setposition "LMLMDDLMLMM"
-2.3.1 :005 > car.setposition "3 3 N"
-2.3.1 :006 > car.setposition "MMRMMRMRSLM"
+2.3.1 :002 > car.position= '5 5'
+2.3.1 :003 > car.position= "1 2 E"
+2.3.1 :004 > car.position= "LMLMDDLMLMM"
+2.3.1 :005 > car.position= "3 3 N"
+2.3.1 :006 > car.position= "MMRMMRMRSLM"
 2.3.1 :007 > car.run
 Expected Output:
 指令D错误
